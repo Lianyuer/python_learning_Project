@@ -28,16 +28,15 @@ map.set_global_opts(
     title_opts=TitleOpts(title="全国疫情地图"),
     visualmap_opts=VisualMapOpts(
         is_show=True,  # 是否显示
-        is_piecewise=True,  # 是否分页
+        is_piecewise=True,  # 是否分段
         pieces=[
-            {
-            "min": 1, "max": 99, "lable": "1~99", "color": "#CCFFFF",
-            "min": 100, "max": 999, "lable": "100~999", "color": "#FFFF99",
-            "min": 1000, "max": 4999, "lable": "1000~4999", "color": "#FF9966",
-            "min": 5000, "max": 6999, "lable": "5000~6999", "color": "#FF6666",
-            "min": 10000, "max": 89999, "lable": "10000~89999", "color": "#CC3333",
-            "min": 100000, "max": 999999, "lable": "100000+", "color": "#C990033"
-            }
+
+            {"min": 1, "max": 99, "lable": "1~99", "color": "#CCFFFF"},
+            {"min": 100, "max": 999, "lable": "100~999", "color": "#FFFF99"},
+            {"min": 1000, "max": 4999, "lable": "1000~4999", "color": "#FF9966"},
+            {"min": 5000, "max": 6999, "lable": "5000~6999", "color": "#FF6666"},
+            {"min": 10000, "max": 89999, "lable": "10000~89999", "color": "#CC3333"},
+            {"min": 100000, "lable": "100000+", "color": "#C990033"}
         ]
     )
 )
