@@ -40,9 +40,9 @@ map.set_global_opts(
             {"min": 60, "max": 89, "label": "60~89", "color": "#FF9966"},
             {"min": 90, "max": 150, "label": "90~150", "color": "#FF6666"},
             {"min": 151, "max": 250, "label": "151~250", "color": "#CC3333"},
-            {"min": 500, "label": "500+", "color": "#2f455b"},
+            {"min": 500, "label": "500+", "color": "#732507"},
         ]
     )
 )
 # 绘图
-map.render("浙江省疫情地图.html")
+map.render("06_浙江省疫情地图.html")

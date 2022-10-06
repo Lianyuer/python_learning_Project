@@ -25,5 +25,5 @@ map.set_global_opts(
     )
 )
 # 绘图
-map.render()
+map.render("04_基本地图.html")
 
