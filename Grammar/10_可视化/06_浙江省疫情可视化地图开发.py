@@ -45,4 +45,4 @@ map.set_global_opts(
     )
 )
 # 绘图
-map.render("06_浙江省疫情地图.html")
+map.render("浙江省疫情地图.html")

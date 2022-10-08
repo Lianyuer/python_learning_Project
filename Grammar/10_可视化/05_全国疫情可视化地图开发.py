@@ -39,4 +39,4 @@ map.set_global_opts(
     )
 )
 # 绘图
-map.render("05_全国疫情地图.html")
+map.render("全国疫情地图.html")
