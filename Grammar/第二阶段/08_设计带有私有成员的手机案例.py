@@ -23,7 +23,7 @@ class Phone:
         else:
             print("5g关闭，使用4g网络")
     # 提供公开成员方法：call_by_5g()
-    
+
     def call_by_5g(self):
         self.__check_5g()
         print("正在通话中...")
