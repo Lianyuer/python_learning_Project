@@ -6,7 +6,6 @@
 # 准备列表
 my_list = [["a", 33], ["b", 55], ["c", 22]]
 
-
 # 排序，基于带名函数
 # def choose_sort_key(element):
 #     return element[1]  # 按照数字进行排序
