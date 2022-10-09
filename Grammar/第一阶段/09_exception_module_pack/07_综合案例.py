@@ -1,9 +1,10 @@
 # 创建my_utils 包， 在包内创建：str_util.py 和 file_util.py 2个模块，并提供相应的函数
 
-from my_utils import file_util
+import Grammar.第一阶段.my_utils.str_util
+from Grammar.第一阶段.my_utils import file_util
 
-print(my_utils.str_util.str_reverse("浙江农林大学"))
-print(my_utils.str_util.substr("浙江农林大学", 1, 3))
+print(Grammar.第一阶段.my_utils.str_util.str_reverse("浙江农林大学"))
+print(Grammar.第一阶段.my_utils.str_util.substr("浙江农林大学", 1, 3))
 
 
 # file_util.print_file_info("E:/test.txt")
